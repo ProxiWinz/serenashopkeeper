@@ -82,7 +82,9 @@ if(command === 'kms') {
   message.channel.send(deathEmbed)
 }
 
-                  
+                  if(message.author.id === "405044808026030092") {
+                  return message.reply(message.content)
+};
                   
   
     if(command === 'botinfo') {
